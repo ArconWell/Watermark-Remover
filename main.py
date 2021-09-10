@@ -14,7 +14,7 @@ b_fill = 255
 
 
 def restore_images(directory_path):
-    types = (".jpg", ",jpeg")
+    types = (".jpg", ".jpeg")
     for type in types:
         for filename in glob.glob(directory_path + r"\*" + type):
             image = Image.open(filename)
