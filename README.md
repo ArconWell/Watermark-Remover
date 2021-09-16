@@ -3,7 +3,7 @@ Can remove watermarks from your images. It works well for images with text (i.e.
 
 ## How to use?
 
-1. You need to create a folder with name "images_for_restore" in the directory where python files situated. 
+1. You need to create a folder with name `images_for_restore` in the directory where python files situated. 
 2. Put images in this folder. Be careful! Your images will be changed, so make copies of them before using program. 
 3. Go to website like `https://imagecolorpicker.com/` etc. Your purpose is to get the lowest and the highest Red, Green and Blue values of your watermark. If it is colorful you may need to run the program a few times to delete all the colors of your watermark.
 4. When you get values run the script.
